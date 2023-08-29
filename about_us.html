@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./script.js" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="sidebar">
+      <div id="close_button">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <div id="sidebar_links">
+        <div class="link">
+          <i class="fa-solid fa-house"></i>
+          <a href="./index.html">Ana Səhifə</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <a href="#">Məhsullar</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-user"></i>
+          <a href="./login.html">Daxil ol</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-basket-shopping"></i>
+          <a href="#">Səbətə bax</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-phone"></i>
+          <a href="./contact_us.html">Əlaqə</a>
+        </div>
+        <div class="link">
+          <i class="fa-solid fa-circle-info"></i>
+          <a href="./about_us.html">Haqqımızda</a>
+        </div>
+        <div id="categories_slider">
+          <div id="categories" class="link">
+            <i class="fa-solid fa-circle-info"></i>
+            <a href="#">Kategoriyalar</a>
+            <i id="arrow" class="fa-solid fa-arrow-down"></i>
+          </div>
+          <div id="slider">
+            <div class="link">
+              <img src="./images/icons8-bed-50.png" alt="Yataq" />
+              <a href="./yataqq.html">Yataq</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-living-room-67.png" alt="Qonaq" />
+              <a href="./qonaq.html">Qonaq</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-sofa-100.png" alt="Yumşaq" />
+              <a href="./divan.html">Yumşaq</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-usaqvegenc-62.png" alt="Uşaq və gənc" />
+              <a href="./usag-genc.html">Uşaq və gənc</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-closet-64.png" alt="Dəhliz" />
+              <a href="./dehliz.html">Dəhliz</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-desk-64.png" alt="Masa və stullar" />
+              <a href="./masa-ve-stullar.html">Masa və stullar</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-mattress-50.png" alt="Döşəklər" />
+              <a href="./doshekler.html">Döşəklər</a>
+            </div>
+            <div class="link">
+              <img src="./images/icons8-kitchen-64.png" alt="Mətbəx" />
+              <a href="./metbex.html">Mətbəx</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <section class="header_container">
+      <div class="header_left">
+        <i id="burger_button" class="fa-solid fa-bars"></i>
+      <div class="logo">
+        <a href="#"
+          ><img style="width: 200px; height: 39px;" src="./images/embawood_logo.png" alt=""
+        /></a>
+      </div>
+      <div class="search">
+        <input type="text" placeholder="search products" id="input" />
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+    </div>
+    <div class="header_right">
+      <div class="heading">
+        <ul>
+          <li><a href="./index.html" class="under">Ana Səhifə</a></li>
+          <li><a href="#" class="under">Məhsullar</a></li>
+          <li><a href="./login.html" class="under">Daxil ol</a></li>
+          <li><a href="./contact_us.html" class="under">Əlaqə</a></li>
+          <li><a href="./about_us.html" class="under">Haqqımızda</a></li>
+        </ul>
+        
+      </div>
+    </div>
+  </section>
+    </header>
+    <section class="about_us_section">
+      <div class="about_us_container">
+        <div class="about_us_top">
+          <h1>Haqqımızda</h1>
+          <p>
+            1996- cı ildə fəliyyətə başlayan İlk yerli mebel brendi olan
+            Embawood müştəri yönümlü strategiyasını özünün əsas prinsipi olaraq
+            seçmiş və bu istiqamətdə əsaslı işləri görməyə davam edir. Mebeldə
+            arzulanan tərzi duya bilmək üçün keyfiyyət sistemini yeniləyərək,
+            xidmət səviyyəsini daha yüksək pilləyə qaldırmışdır. Şirkət
+            qarşısına qoyduğu bütün məqsədlərə çatmaq üçün məhsul portfelində
+            çeşid çoxluğu, müasir və dəbdəbəli dizayn, keyfiyyətə nəzarət,
+            satışdan sonrakı xidmət, müştəri yönümlülük kimi prinsipləri əsas
+            meyar olaraq seçmişdir. Embawood MMC Bakı şəh., Yasamal ray., Bəsti
+            Bağırova küç., 15A, (1) ünvanda 6400009481 qeydiyyatlı VÖEN altında
+            fəaliyyət göstərir. Azərbaycanın Masallı, Xırdalan və Sumqayıt
+            şəhərlərində, həmçinin Ukrayna , Qazaxıstan, Gürcüstan kimi
+            ölkələrdə şirkətin toplam olaraq 7 fabriki fəaliyyətni davam
+            etdirir. Bundan əlavə, adıçəkilən ölkələrdə Embawood brendinin
+            mağazaları mövcuddur.
+          </p>
+        </div>
+        <div class="about_us_bottom">
+          <h1>Tariximiz</h1>
+          <p>
+            Bu period ərzində şirkətin tarixində baş vermiş əhəmiyyətli
+            hadisələr:
+            <br />
+            1996-cı il -Masallıda istehsalın qurulması;
+            <br />
+            2000-ci il - Xırdalanda ikinci fabrikin açılması;
+            <br />
+            2000-ci il - Ev mebeli ilə yanaşı İdeal Dizayn adlı ofis mebeli
+            brendinin açılması;
+            <br />
+            2002-ci il - Embawood brendinin bazara çıxarılması;
+            <br />
+            2004-cü il - İSO 9001:2000 Beynəlxalq “Keyfiyyətin İdarə Edilməsi
+            Sistemi” üzrə sertifikatın alınması;
+            <br />
+            2005-ci il - Regional anbarların qurulması;
+            <br />
+            2006- cı il - Tiflis şəhərində daha bir fabrikin açılması,
+            <br />
+            2007-ci il - İlk mağazanın açılması, pərakəndə satışın əsasının
+            qoyulması;
+            <br />
+            2008-ci il - Xarici bazarlarda bazar payının götürülməsi;
+            <br />
+            2009-cu il - MDB məkanında ilk EN standartları ilə fəaliyyət
+            göstərən Keyfiyyət sınaq laboratoriyasının qurulması;
+            <br />
+            2010-cu il - Ukraynanın qərbində, Samborda fabrik açıldı
+            <br />
+            2010-cu il - İkinci ev mebeli brendi - Madeyranın, döşək brendi -
+            Dolce Nochenin bazara çıxarılması
+            <br />
+            2011- ci il Embawood brendi rebranding etdi
+            <br />
+            2014 - ci il Qazaxıstan mebel fabrikinin açılması
+            <br />
+            2015- ci il OHSAS 18001 .2007 Ətraf mühit və təhlükəsizlik üzrə
+            sertifikatın alınması
+            <br />
+            2015- ci il İSO 14001 ..2004 Beynəlxalq “Keyfiyyətin İdarə Edilməsi
+            Sistemi” üzrə sertifikatın alınması;
+            <br />
+            2015 - ci il Memarlıq və İnşaat üniveristeti ilə Embawood şirkəti
+            arasında Memorandum imzalanması
+            <br />
+            2016- cı il Şirkət daxilində Müşahidə Şurasının Yaradılması.
+            Şirkətin CEO tərəfində idarə edilməsi.
+            <br />
+            2017 - ci il Memarlıq və İnşaat üniversitetində Embawood
+            emalatxanasının qurulması
+            <br />
+            2017 - ci il Şirkət təsisçisi Elşad Abbasovun Tərəqqi medalı ilə
+            təltif edilməsi.
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="footer_container">
+        <div class="footer0">
+          <img  style="width: 200px; height: 39px;" src="./images/embawood_logo.png" alt="" />
+        </div>
+        <div class="footer1">
+          Connect with us at
+          <div class="social-media">
+            <a href="#">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            <a href="#">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="footer2">
+          <div class="product">
+            <div class="heading">Şirkət</div>
+            <div class="div">Haqqımızda</div>
+            <div class="div">Müştəri xidməti</div>
+            <div class="div">Vakansiyalar</div>
+            <div class="div">Terminlər</div>
+          </div>
+          <div class="services">
+            <div class="heading">Müştərilər üçün informasiya</div>
+            <div class="div">İstifadəçi razılaşması</div>
+            <div class="div">Onlayn alış qaydaları</div>
+            <div class="div">Konfidensiallıq</div>
+            <div class="div">Onlayn alış qaydalar</div>
+          </div>
+          <div class="Company">
+            <div class="heading">Keyfiyyət</div>
+            <div class="div">Keyfiyyət</div>
+            <div class="div">Karyera</div>
+            <div class="div">Marketinq</div>
+            <div class="div">Kömək</div>
+          </div>
+          <div class="Get Help">
+            <div class="heading">Əlaqə</div>
+            <div class="div">Əlaqə mərkəzi</div>
+            <div class="div">Gizlilik sözləşməsi</div>
+            <div class="div">Qaydalar</div>
+            <div class="div">Giriş et</div>
+          </div>
+        </div>
+        <div class="footer3">
+          Copyright ©
+          <h4>embawood</h4>
+          2023
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
